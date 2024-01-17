@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contribute Question</title>
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/question.css">
+  ="shaintegrity512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500&family=Roboto:wght@900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav">
+      <div class="logo"><img src="/assets/pp logo.jpg" alt=""></div>
+
+      <a href="main.html" class="btn btn-outline-warning">Home</a>
+      <a href="Problem.html" class="btn btn-outline-warning">Problems</a>
+      <a href="" class="btn btn-outline-warning">Contribute</a>
+      <a href="" class="btn btn-outline-warning">Study Materials</a>
+      <a href="" class="btn btn-outline-warning">Discuss</a>
+
+      <div class="noti">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+
+      <div class="profile">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+
+    <div class="nav-main">
+      <div class="Question">
+        <h1 class="ques">Question</h1><br>
+        <form action="http://localhost:5000/questions" method="post" > 
+          <p>Name and Descibe your Question</p>
+          <div class="category col-8">
+            <label for="categ" >Category*</label><br>
+            <select name="category" class="form-select" id="categ">
+              <option selected disabled>Select category....</option>
+              <option value="1">Algorithm</option>
+              <option value="2">Database</option>
+              <option value="3">Java</option>
+              <option value="4">C++</option>
+              <option value="5">Python</option>
+              <option value="6">JavaScript</option>
+              <option value="7">DataStructures</option>
+            </select>
+          </div>
+          <div class="title">
+            <!-- <input type="text"></input> -->
+            <input type="text" name="title">
+            <label for="tit">Title*</label><br>
+          </input>
+          </div>
+          <!-- <div class="titl "><input type="text" class="col-8 " placeholder=" Pick a title"></div> -->
+
+
+          
+          <div class="description">
+            <input type="text" name="description">
+            <label for="des">Description*</label><br>
+          </input>
+          </div>
+          <div class="desc">
+            <!-- <textarea name="descrip" id="des" cols="45" rows="8"
+              placeholder=" Describe your question here.."></textarea> -->
+          </div>
+        
+        <div class="test">
+          <button type="button" class="btn btn-outline-info">Add Test cases</button>
+        </div>
+        <div class="submit">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+
+      </div>
+      <div class="nav-right">
+
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+          <h3> Placement Pedia </h3>
+          <p>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            Sienna Towers, Service Road, Bangalore
+          </p>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+        <div class="column link">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Discuss</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#support">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="column subscribe">
+          <h3>Newsletter</h3>
+          <div>
+            <input type="email" placeholder="Your email id here" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="footer-menu">
+
+          <a href="">Home</a>
+          <a href="">F.A.Q</a>
+          <a href="">Cookies Policy</a>
+          <a href="">Terms Of Service</a>
+          <a href="">Support</a>
+
+        </div>
+        <p>Copyright &copy; 2023</p>
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+</body>
+
+</html>

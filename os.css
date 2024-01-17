@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(66, 255, 255);
+}
+.nav{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: first baseline; */
+    align-items: flex-start;
+    margin: 0;
+    padding: 5px;
+    width: 100vw;
+    height: 20%;
+    background-color:#c685d6;
+    box-shadow: 0 1px 10px #252B48 inset;
+}
+
+.logo{
+    position: relative;
+    
+    padding: 5px;
+    display: flex;
+    background-color: black;
+    margin: 20px; ;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.main button{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.main button a {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.main .nav button a:hover{
+    color: white;
+}
+.main .link a{
+    position: relative;
+    top: 17px;
+    margin: 20px;
+    left: 40%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size:medium;
+    font-weight: bolder;
+    color: white;
+}
